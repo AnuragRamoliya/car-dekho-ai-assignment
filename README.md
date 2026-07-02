@@ -156,6 +156,7 @@ Railway is the intended deployment target for this stack:
 - Create a MySQL service.
 - Create a backend service with the root directory set to `backend`.
 - Create a frontend service with the root directory set to `frontend`.
+- In Railway, expose each service and let Railway generate a public domain. The services should listen on `PORT`; Railway will assign that automatically.
 - Set backend env vars: `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `CORS_ORIGIN`.
 - Backend start command should run the same sequence as Docker: wait for DB, migrate, seed, start.
 - Set `VITE_API_BASE_URL` on the frontend to the deployed backend API URL.
