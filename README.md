@@ -154,12 +154,14 @@ Confirmed:
 Railway is the intended deployment target for this stack:
 
 - Create a MySQL service.
-- Create a backend service from `backend/`.
+- Create a backend service with the root directory set to `backend`.
+- Create a frontend service with the root directory set to `frontend`.
 - Set backend env vars: `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `CORS_ORIGIN`.
 - Backend start command should run the same sequence as Docker: wait for DB, migrate, seed, start.
-- Create a frontend service from `frontend/`.
-- Set `VITE_API_BASE_URL` to the deployed backend API URL.
+- Set `VITE_API_BASE_URL` on the frontend to the deployed backend API URL.
 - Set backend `CORS_ORIGIN` to the deployed frontend URL.
+
+Railpack will detect the correct runtime when each Railway service points at the appropriate subdirectory, because the repo now includes service-specific config files in [backend/railway.toml](backend/railway.toml) and [frontend/railway.toml](frontend/railway.toml).
 
 Live deployment was not completed from this environment because no Railway/Render credentials or project access were available.
 

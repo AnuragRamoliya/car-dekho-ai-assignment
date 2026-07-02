@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "node scripts/wait-for-db.js && npm run migrate && npm run seed && npm run start"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 100
