@@ -1,0 +1,7 @@
+<svg width="166" height="45" viewBox="0 0 166 45" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CarDekho">
+  <circle cx="22.5" cy="22.5" r="22.5" fill="#FF5A3D"/>
+  <path d="M23 5.5C15.6 10.4 11.7 16.1 11.7 22.5C11.7 28.9 15.6 34.6 23 39.5V28.8C19.7 28.4 17.1 25.7 17.1 22.5C17.1 19.3 19.7 16.6 23 16.2V5.5Z" fill="#151923"/>
+  <path d="M25.5 16.2C28.8 16.6 31.4 19.3 31.4 22.5C31.4 25.7 28.8 28.4 25.5 28.8V39.5C32.9 34.6 36.8 28.9 36.8 22.5C36.8 16.1 32.9 10.4 25.5 5.5V16.2Z" fill="white"/>
+  <text x="54" y="25" fill="#151923" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">CarDekho</text>
+  <text x="75" y="37" fill="#151923" font-family="Inter, Arial, sans-serif" font-size="7" font-weight="700" letter-spacing=".45">BADHTE INDIA KA BHAROSA</text>
+</svg>
