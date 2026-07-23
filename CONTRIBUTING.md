@@ -113,4 +113,3 @@ Please include:
 ## License
 
 This project is part of a take-home assignment.
-Test
